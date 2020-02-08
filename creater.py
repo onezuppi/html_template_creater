@@ -7,6 +7,7 @@ html = """<!DOCTYPE html>
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css/blank.css" />
     <link rel="stylesheet" type="text/css" href="css/style.css" />
 </head>
 <body>
@@ -35,9 +36,9 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 """
 
 dirs = ["img", "css", "fonts", "js", "scss"]
-files = ["css/style.css", "index.html", "scss/style.scss"]
+files = ["css/style.css", "index.html", "scss/style.scss", "css/blank.css"]
 sec_files = ["robots.txt"]
-texts = [css, html , css]
+texts = ["", html , css, css]
 # /vars
 
 # dirs
